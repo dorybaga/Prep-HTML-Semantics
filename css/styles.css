@@ -1,8 +1,47 @@
+body {
+	font-family: 'EB Garamond', serif;
+}
+.navBar {
+	font-family: 'Quicksand', sans-serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navBar li {
+	float: left;
+
+}
+
+.navBar li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+
+}
+h2 {
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.date {
+	font-family: 'Quicksand', sans-serif;
+
+}
+
 table, th, td {
 	border-collapse: collapse;
 	border: 1px solid black;
 	width: 400px;
+	text-align: center;
 }
-th {
-	text-align: left;
+
+img {
+	display: block;
+	margin: auto;
 }
